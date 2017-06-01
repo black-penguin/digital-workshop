@@ -1,0 +1,81 @@
+html
+{
+  font-size: 16px;
+}
+
+.main_header
+{
+    width:100%;
+    height:80px;
+    padding: 15PX;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo
+{
+    width:50px;
+}
+
+.main_nav
+{
+    display: none;
+    width:400px;
+    display: none;
+    position: fixed;
+}
+
+.main_nav ul
+{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HAM
+{
+    width:24px;
+    height:24px;
+}
+
+.workshop
+{
+  position: relative;
+}
+
+.workshop h1
+{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.person
+{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+
+/*li
+{
+  line-height: 1rem;
+  list-style-type: none;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+@media(min-width: 750px)
+{
+    html
+    {
+      font-size: 18px;
+    }
+}*/
